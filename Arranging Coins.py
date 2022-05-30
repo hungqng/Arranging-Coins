@@ -18,3 +18,6 @@ class Solution:
                 l = mid + 1
                 res = max(mid, res)
         return res
+
+        # Solution 2
+        return int((math.sqrt(8 * n + 1)-1)/2)
