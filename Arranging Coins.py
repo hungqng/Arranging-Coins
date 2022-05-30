@@ -21,3 +21,6 @@ class Solution:
 
         # Solution 2
         return int((math.sqrt(8 * n + 1)-1)/2)
+
+        # Solution 3
+        return int((-1 + (1 + 8 * n)**0.5) // 2)
